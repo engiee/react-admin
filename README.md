@@ -11,7 +11,6 @@ react-admin system solution
 > 网上react后台管理开源免费的完整版项目比较少，所以利用空余时间集成了一个版本出来，已放到GitHub
   启动和打包的时间都稍长，请耐心等待两分钟
 
-- [GitHub地址](https://github.com/yezihaohao/react-admin)
 - [预览地址](http://cheng_haohao.oschina.io/reactadmin/#/app/dashboard/index)(已增加响应式，可手机预览😄)
 
 ### 依赖模块
@@ -69,30 +68,6 @@ react-admin system solution
 - 页面
     - 登录页面(包括GitHub第三方登录)
     - 404页面
-
-### 功能截图
-#### 首页
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd1.gif)
-#### 按钮图标等
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd2.gif)
-#### 轮播图
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd3.gif)
-#### 富文本
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd4.gif)
-#### 拖拽
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd5.gif)
-#### 画廊
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd6.gif)
-#### 动画
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd7.gif)
-#### 表格
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd8.gif)
-#### 表单
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd9.gif)
-#### 图表
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd10.gif)
-#### 页面
-![截图](https://raw.githubusercontent.com/yezihaohao/yezihaohao.github.io/master/imgs/rd11.gif)
 
 ### 代码目录
 ```js
@@ -180,7 +155,6 @@ npm run build
     - 替换antd Col 组件的响应式栅格为md(具体参数用法请查看antd官方文档)
     - 初始化页面是获取当前浏览器宽度设置菜单显示类型
     - 监听window的onresize函数，设置菜单显示类型。PS：浏览器宽度存入redux中，方便组件之间传递。
-![截图](https://raw.githubusercontent.com/yezihaohao/react-admin/master/src/style/imgs/mobile.gif)
 #### 2017-09-13
 - 依赖包版本升级
     - antd@2.13.1(目前最新版)
@@ -205,10 +179,3 @@ npm run build
 ### 结尾
 该项目会不定时更新，后续时间会添加更多的模块
 
-欢迎和感谢大家PR~~👏👏
-
-若有问题，可加QQ群264591039与我交流
-
-ps:以上群满的时候请加群：592688854
-
-如果对你有帮助，给个star哟~~❤️❤️❤️❤️
